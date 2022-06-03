@@ -14,3 +14,5 @@ function roll() {
 		document.querySelector("h1").innerHTML = "Draw!";
 	}
 }
+
+document.querySelector("button").addEventListener("click", roll);
